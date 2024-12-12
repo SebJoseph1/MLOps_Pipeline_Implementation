@@ -1,0 +1,9 @@
+# Folder in which this config file work
+artifacts_root: artifacts
+
+# Confirgation to download the dataset
+data_ingestion:
+  root_dir: artifacts/data_ingestion # Folder to which it will be downloaded
+  source_URL: https://github.com/SebJoseph1/MLOps_Pipeline_Implementation/raw/refs/heads/main/archive.zip # url from which the datset is downloaded
+  local_data_file: artifacts/data_ingestion/data.zip # Name of the file to which it is downloaded
+  unzip_dir: artifacts/data_ingestion # Folder to which trhe zip file has to be unzipped
